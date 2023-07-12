@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+
+}
+/*-------header Start-------*/
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 15px;
+}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid rgba(32, 30, 30, 0.041) ;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(7, 109, 99);
+}
+.contack{
+    float: right;
+    padding: 30px;
+
+}
+.contack a{
+    text-decoration: none;
+    color: rgb(26, 184, 168);
+}
+.contack a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+/*---div clear----*/
+.div-clear{
+    clear: both;
+}
+hr{
+    font-weight: bold;
+    border: 3px solid rgba(46, 41, 41, 0.973);
+    border-bottom: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*-------header End--------*/
+
+/*------ section------*/
+.paorsonal-section{
+    
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.right-div p{
+    color:black;
+}
+
+.skills{
+    margin-left: 50px;
+}
+.site a{
+    text-decoration: none;
+}
+.honor{
+    margin-left: 15px;
+}
+
+
+
+/*-------common hr------*/
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+
+}
+.right-div .right-divOne{
+    width: 45%;
+    float: left;
+   
+}
+.right-div .right-divTwo{
+    width: 45%;
+    float: right
+}
+/*-------Footer------*/
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+.footer a{
+    color: rgb(243, 241, 233);
+    text-decoration: none;
+    margin: 20px;
+}
+.footer p{
+    color: cornsilk;
+    padding: 5px;
+    margin-top: 10px;
+}
